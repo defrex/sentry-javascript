@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.dev.json",
+  "compilerOptions": {
+    "lib": ["DOM", "ES2022"],
+    "target": "ES2022",
+    "module": "esnext",
+    "moduleResolution": "bundler"
+  },
+  "include": ["src/**/*", "test/**/*"]
+}
